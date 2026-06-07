@@ -1,7 +1,7 @@
 ---
 title: AI 자동화 보안 알림
 sidebar_label: AI 자동화 보안 알림 (출시 예정)
-sidebar_position: 4
+sidebar_position: 6
 ---
 
 # AI 자동화 보안 알림 (AI Automated Security Alerts)

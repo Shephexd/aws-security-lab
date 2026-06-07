@@ -39,7 +39,11 @@ const config: Config = {
     'docusaurus-plugin-image-zoom', // 본문 이미지(PNG 아키텍처) 클릭 확대
     [
       '@docusaurus/plugin-client-redirects',
-      {redirects: []}, // URL 변경 시 {from:'/old', to:'/new'} 추가
+      {
+        redirects: [
+          {from: '/solutions/claude-code-private-networking', to: '/solutions/claude-code-bedrock'},
+        ],
+      },
     ],
   ],
 

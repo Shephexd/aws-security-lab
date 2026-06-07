@@ -1,7 +1,7 @@
 ---
 title: AWS 리소스 시각화
 sidebar_label: AWS 리소스 시각화
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # AWS 리소스 시각화 (AWS Resource Visualization)

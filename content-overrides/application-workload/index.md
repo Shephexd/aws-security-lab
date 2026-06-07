@@ -27,5 +27,5 @@ sidebar_position: 0
 - [ML 데이터 보안](./ai-ml/ml-data-security.md)
 
 ## 관련
-- 배포: [Claude Code 프라이빗 네트워킹](../solutions/claude-code-private-networking.md)
+- 배포: [Claude Code on Bedrock](../solutions/claude-code-bedrock.md) · [AppSec 보안 에이전트](../solutions/appsec-security-agent.md)
 - 공급망: [SBOM · 소프트웨어 공급망](../advanced/supply-chain-sbom.md)
