@@ -28,7 +28,7 @@ Security Lab은 "어떤 AWS 보안 서비스를 켤까"가 아니라, **고객�
 
 | 영역 | 자주 겪는 문제 | 모범사례 | ① 진단 | ② 서비스/솔루션 | ③ 기반 지식 |
 |------|---------------|----------|--------|------------------|-------------|
-| 가시성 | 내 계정 보안 상태를 모른다 | [SEC 1](./foundations/well-architected-alignment.md#security-foundations) | [SRA Verify](./diagnostics/sra-verify.md) | 📦 [SRA Verify](./diagnostics/sra-verify.md) · [리소스 시각화](./diagnostics/aws-resource-visualization.md) | [WAF 정렬](./foundations/well-architected-alignment.md) |
+| 가시성 | 내 계정 보안 상태를 모른다 | [SEC 1](./foundations/well-architected-alignment.md#security-foundations) | [SRA Verify](./diagnostics/sra-verify.md) | 📦 [SRA Verify](./diagnostics/sra-verify.md) · [리소스 시각화](./solutions/aws-resource-visualization.md) | [WAF 정렬](./foundations/well-architected-alignment.md) |
 | 자격증명 | IAM 권한이 과도하거나 미사용 | [SEC 3](./foundations/well-architected-alignment.md#identity-and-access-management) | Access Analyzer | 네이티브 + 가이던스 | [정책 평가 로직](./identity-access/iam-policy-evaluation-logic.md) |
 | 자격증명 | 루트·장기 액세스 키 위험 | [SEC 2](./foundations/well-architected-alignment.md#identity-and-access-management) | [SRA Verify](./diagnostics/sra-verify.md) | Identity Center · MFA | [IAM 핵심](./identity-access/iam-core.md) |
 | 데이터 | S3·데이터가 노출될 수 있다 | [SEC 8](./foundations/well-architected-alignment.md#data-protection) | Macie | BPA · DLP (가이던스) | [데이터 분류](./data-protection/data-classification-macie.md) · [DLP](./data-protection/dlp.md) |
@@ -51,7 +51,7 @@ Security Lab은 "어떤 AWS 보안 서비스를 켤까"가 아니라, **고객�
 ### 가시성 — "지금 상태를 모른다"
 가장 흔한 출발점입니다. 무엇이 떠 있고 어디가 모범사례에서 벗어났는지부터 측정합니다.
 - **진단**: [SRA Verify](./diagnostics/sra-verify.md)로 조직 전 계정을 AWS SRA 기준 점검 → 발견사항 목록.
-- **솔루션**: 자산 가시성은 [리소스 시각화](./diagnostics/aws-resource-visualization.md).
+- **솔루션**: 자산 가시성은 [리소스 시각화](./solutions/aws-resource-visualization.md).
 - **지식**: [Well-Architected 정렬(SEC 1–11)](./foundations/well-architected-alignment.md).
 
 ### 자격증명 — "권한이 과도하거나 통제가 안 된다"

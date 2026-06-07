@@ -24,6 +24,7 @@ sidebar_position: 0
 | --- | --- | --- |
 | [AppSec 보안 에이전트](./appsec-security-agent.md) | 설계·코드·침투 테스트를 에이전트로 자동화(설계→배포 전반) | 워크로드 · 기초 |
 | [SIEM on OpenSearch](./siem-opensearch.md) | 다계정 로그를 수집·상관분석·시각화 → 인시던트 조사 | 탐지·대응 |
+| [AWS 리소스 시각화](./aws-resource-visualization.md) | Config 데이터를 Athena·QuickSight 대시보드로 → 자산 인벤토리/컴플라이언스 상시 가시성 | 탐지·대응 · 거버넌스 |
 | [Claude Code on Bedrock](./claude-code-bedrock.md) | Claude Code/Cowork를 Bedrock+기존 IdP로 키리스 엔터프라이즈 배포 | 자격증명 · 거버넌스 |
 | [AI 자동화 보안 알림](./ai-automated-security-alerts.md) *(출시 예정)* | 보안 이벤트를 AI로 분류·요약·알림 → 운영 부하 감소 | 탐지·대응 |
 

@@ -22,13 +22,14 @@ sidebar_position: 0
 | [AWS SRA 진단 (SRA Verify)](./sra-verify.md) | **AWS SRA** | 조직 전 계정의 보안 서비스 구성이 SRA에 부합하는지 | CodeBuild/로컬, CSV·대시보드 |
 | [AWS Security Assessment (ASA / SATv2)](./aws-security-assessment.md) | **Prowler** | 베스트 프랙티스 기준 점검(수백 개 체크) | CloudFormation, 대시보드 |
 | [Service Screener v2](./service-screener.md) | **Well-Architected** | 다중 서비스 구성 + Trusted Advisor + 프레임워크 준수 | CLI, HTML 리포트 |
-| [AWS 리소스 시각화](./aws-resource-visualization.md) | **AWS Config** | 자산 인벤토리·구성 가시성(SQL·대시보드) | CloudFormation |
+
+> 자산 인벤토리·구성 가시성을 *상시 대시보드*로 배포하려면 → [AWS 리소스 시각화](../solutions/aws-resource-visualization.md)(솔루션).
 
 ## 어떤 도구를 언제
 
 - **SRA 정렬 여부**가 궁금하다 → **SRA Verify** (관리/감사/로그 계정 역할까지 점검)
 - **빠른 종합 점검·리포트**가 필요하다 → **ASA(Prowler)** 또는 **Service Screener**
-- **자산이 무엇이 떠 있는지**부터 봐야 한다 → **리소스 시각화**
-- 셋은 **상호 보완적**입니다 — 기준(SRA·Prowler·Well-Architected)이 달라 교차 점검하면 사각지대를 줄입니다. 지속 점검은 **Security Hub 표준**으로 보강하세요.
+- **자산이 무엇이 떠 있는지** 상시 대시보드가 필요하다 → [AWS 리소스 시각화](../solutions/aws-resource-visualization.md)(솔루션)
+- 위 세 도구는 **상호 보완적**입니다 — 기준(SRA·Prowler·Well-Architected)이 달라 교차 점검하면 사각지대를 줄입니다. 지속 점검은 **Security Hub 표준**으로 보강하세요.
 
 > 진단 결과 → 우선순위화 → [솔루션](../solutions/index.md)/가이던스로 해결 → 재진단의 루프로 운영하세요.

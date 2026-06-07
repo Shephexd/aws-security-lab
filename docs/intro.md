@@ -47,7 +47,6 @@ slug: /
 
 - **[AWS SRA 진단 (SRA Verify)](./diagnostics/sra-verify.md)** — 조직 전 계정의 SRA 정렬 자동 진단
 - **[AWS Security Assessment (Prowler)](./diagnostics/aws-security-assessment.md)** · **[Service Screener v2](./diagnostics/service-screener.md)** — 베스트 프랙티스 종합 점검
-- **[AWS 리소스 시각화](./diagnostics/aws-resource-visualization.md)** — 자산 인벤토리·구성 가시화
 
 → [전체 진단도구](./diagnostics/index.md)
 
@@ -57,6 +56,7 @@ slug: /
 
 - **[AppSec 보안 에이전트](./solutions/appsec-security-agent.md)** — 설계·코드·침투 테스트 자동화
 - **[SIEM on OpenSearch](./solutions/siem-opensearch.md)** — 다계정 로그 수집·상관분석·시각화
+- **[AWS 리소스 시각화](./solutions/aws-resource-visualization.md)** — 자산 인벤토리·컴플라이언스 대시보드 배포
 - **[Claude Code on Bedrock](./solutions/claude-code-bedrock.md)** — Bedrock+기존 IdP로 키리스 엔터프라이즈 배포
 - **[AI 자동화 보안 알림](./solutions/ai-automated-security-alerts.md)** *(출시 예정)*
 

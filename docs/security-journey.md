@@ -18,7 +18,7 @@ SRA Verify  →  위협·리스크   →  지식베이스 원리  →  솔루션
 조직 전 계정이 AWS 모범사례(SRA)에 얼마나 부합하는지부터 봅니다.
 
 - **[AWS SRA 진단 (SRA Verify)](./diagnostics/sra-verify.md)** — CloudTrail·GuardDuty·Config·Security Hub·S3 구성 자동 점검 → 발견사항 목록
-- **[AWS 리소스 시각화](./diagnostics/aws-resource-visualization.md)** — 무엇이 떠 있는지(자산 인벤토리) 가시화
+- **[AWS 리소스 시각화](./solutions/aws-resource-visualization.md)** — 무엇이 떠 있는지(자산 인벤토리) 가시화
 
 ## ② 우선순위 — 무엇부터 막을까
 발견된 갭을 위협·영향 기준으로 정렬합니다.

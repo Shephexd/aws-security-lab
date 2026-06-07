@@ -43,7 +43,7 @@ const config: Config = {
         redirects: [
           {from: '/solutions/claude-code-private-networking', to: '/solutions/claude-code-bedrock'},
           {from: '/solutions/sra-verify', to: '/diagnostics/sra-verify'},
-          {from: '/solutions/aws-resource-visualization', to: '/diagnostics/aws-resource-visualization'},
+          {from: '/diagnostics/aws-resource-visualization', to: '/solutions/aws-resource-visualization'},
         ],
       },
     ],
