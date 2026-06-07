@@ -48,7 +48,7 @@ tags:
 
 ## 다른 솔루션과의 관계
 
-- **SRA Verify**가 *계정/인프라 구성*을 진단한다면, **AppSec 보안 에이전트**는 *애플리케이션 코드·설계*를 진단합니다. 둘은 상호 보완적입니다. → [SRA Verify](./sra-verify.md)
+- **SRA Verify**가 *계정/인프라 구성*을 진단한다면, **AppSec 보안 에이전트**는 *애플리케이션 코드·설계*를 진단합니다. 둘은 상호 보완적입니다. → [SRA Verify](../diagnostics/sra-verify.md)
 
 ## 참고자료
 

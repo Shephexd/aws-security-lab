@@ -11,7 +11,7 @@ tags:
 
 이 가이드의 콘텐츠를 **AWS Well-Architected 보안 기둥의 베스트 프랙티스(SEC 1–11)** 에 1:1로 정렬한 크로스워크입니다. 대략적 매핑이 아니라, 각 베스트 프랙티스 질문이 *이 가이드의 어떤 페이지로 답해지는지* 를 명시합니다.
 
-> 배경·설계 원칙은 [Well-Architected — Security Pillar](./well-architected-security-pillar.md) 참조. 실제 계정 구성이 이 기준에 부합하는지 자동 진단하려면 → [AWS SRA 진단 (SRA Verify)](../solutions/sra-verify.md).
+> 배경·설계 원칙은 [Well-Architected — Security Pillar](./well-architected-security-pillar.md) 참조. 실제 계정 구성이 이 기준에 부합하는지 자동 진단하려면 → [AWS SRA 진단 (SRA Verify)](../diagnostics/sra-verify.md).
 
 :::info 두 관점
 이 페이지는 **모범사례(목표 상태)** 관점입니다 — "이렇게 설계해야 한다." 각 SEC를 **충족하지 못하면 증상(문제)으로 나타납니다.** 현재 겪는 증상에서 출발하려면 → **[자주 겪는 보안 문제](../common-problems.md)** (각 문제가 어떤 SEC에 해당하는지 표기).

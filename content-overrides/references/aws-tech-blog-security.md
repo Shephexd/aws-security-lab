@@ -29,5 +29,5 @@ sidebar_position: 2
 - [OWASP 기반 생성형 AI 보안 평가 가이드](https://aws.amazon.com/ko/blogs/tech/owasp-genai-security-assessment-guide/)
 
 ## 탐지 & 진단 자동화
-- [Systems Manager로 EC2 보안 진단 자동화 (빗썸 사례) — Part 1](https://aws.amazon.com/ko/blogs/tech/building-ec2-diagnostics-automation-using-systems-manager-part1/) → [Part 6](../detection-response/index.md) · [SRA Verify 진단](../solutions/sra-verify.md)
+- [Systems Manager로 EC2 보안 진단 자동화 (빗썸 사례) — Part 1](https://aws.amazon.com/ko/blogs/tech/building-ec2-diagnostics-automation-using-systems-manager-part1/) → [Part 6](../detection-response/index.md) · [SRA Verify 진단](../diagnostics/sra-verify.md)
 - [Systems Manager로 EC2 보안 진단 자동화 (빗썸 사례) — Part 2](https://aws.amazon.com/ko/blogs/tech/building-ec2-diagnostics-automation-using-systems-manager-part2/)

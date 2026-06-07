@@ -19,7 +19,7 @@ tags:
 - [Part 6 · SIEM / Security Lake](../detection-response/detection/siem-security-lake.md) — 로그 정규화·상관분석
 - [Part 6 · 로깅 & 감사](../detection-response/detection/logging-auditing.md) · [지속적 모니터링](../detection-response/detection/continuous-monitoring.md)
 - WAF [SEC 4 · 탐지](../foundations/well-architected-alignment.md#detection)
-- 진단 결과의 후속 조사 도구로 [SRA Verify](./sra-verify.md)와 연계
+- 진단 결과의 후속 조사 도구로 [SRA Verify](../diagnostics/sra-verify.md)와 연계
 
 ## 지원 로그 (일부)
 | 분류 | 예 |

@@ -34,22 +34,31 @@ slug: /
 
 **목표별**
 - 🧭 *"내 고민이 무엇인지부터 보고 싶다"* → **[자주 겪는 보안 문제](./common-problems.md)** (문제 → 진단 → 솔루션 → 지식)
-- 🔍 *"우리 계정 보안 상태부터 진단하고 싶다"* → [AWS SRA 진단(SRA Verify)](./solutions/sra-verify.md)
+- 🔍 *"우리 계정 보안 상태부터 진단하고 싶다"* → [AWS SRA 진단(SRA Verify)](./diagnostics/sra-verify.md)
 - 📐 *"AWS 보안을 처음 설계한다"* → [보안 여정](./security-journey.md) 흐름을 따라가기
 - 📋 *"규제(ISMS-P/FSI)를 준수·증빙해야 한다"* → [거버넌스 & 컴플라이언스](./governance-compliance/index.md)
 - 🚀 *"특정 역량을 바로 배포하고 싶다"* → [솔루션 패키지](./solutions/index.md)
 
 > 처음 방문하셨다면 **[보안 여정](./security-journey.md)** — *진단 → 우선순위 → 설계 → 배포 → 증빙* 흐름을 먼저 보시길 권합니다.
 
-## 🚀 솔루션 패키지
+## 🔍 진단도구 — 현재 상태 점검
 
-기본 보안 설정 소개에 그치지 않고, 고객이 **운영 환경에서 바로 배포**할 수 있는 솔루션 패키지를 제공합니다. 각 솔루션은 관련 보안 영역과 정렬되어 있습니다.
+내 환경이 모범사례에 얼마나 부합하는지부터 측정합니다.
 
-- **[AWS SRA 진단 (SRA Verify)](./solutions/sra-verify.md)** — 조직 전 계정을 AWS 보안 모범사례(SRA) 기준으로 자동 진단
-- **[AppSec 보안 에이전트](./solutions/appsec-security-agent.md)** — 설계·코드·침투 테스트를 에이전트로 자동화
+- **[AWS SRA 진단 (SRA Verify)](./diagnostics/sra-verify.md)** — 조직 전 계정의 SRA 정렬 자동 진단
+- **[AWS Security Assessment (Prowler)](./diagnostics/aws-security-assessment.md)** · **[Service Screener v2](./diagnostics/service-screener.md)** — 베스트 프랙티스 종합 점검
+- **[AWS 리소스 시각화](./diagnostics/aws-resource-visualization.md)** — 자산 인벤토리·구성 가시화
+
+→ [전체 진단도구](./diagnostics/index.md)
+
+## 🚀 솔루션 — 보안 역량 배포
+
+진단으로 찾은 갭을 **운영 환경에 배포**해 해결합니다.
+
+- **[AppSec 보안 에이전트](./solutions/appsec-security-agent.md)** — 설계·코드·침투 테스트 자동화
 - **[SIEM on OpenSearch](./solutions/siem-opensearch.md)** — 다계정 로그 수집·상관분석·시각화
 - **[Claude Code on Bedrock](./solutions/claude-code-bedrock.md)** — Bedrock+기존 IdP로 키리스 엔터프라이즈 배포
-- **[AWS 리소스 시각화](./solutions/aws-resource-visualization.md)** · **[AI 자동화 보안 알림](./solutions/ai-automated-security-alerts.md)** *(출시 예정)*
+- **[AI 자동화 보안 알림](./solutions/ai-automated-security-alerts.md)** *(출시 예정)*
 
 → [전체 솔루션 카탈로그](./solutions/index.md)
 

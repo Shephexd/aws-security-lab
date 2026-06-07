@@ -27,6 +27,6 @@ sidebar_position: 0
 - [자동 대응 오케스트레이션](./incident-response/automation-orchestration.md)
 
 ## 관련
-- 진단: [AWS SRA 진단 (SRA Verify)](../solutions/sra-verify.md)
+- 진단: [AWS SRA 진단 (SRA Verify)](../diagnostics/sra-verify.md)
 - 배포: [AI 자동화 보안 알림](../solutions/ai-automated-security-alerts.md)
 - 복구로 이어짐: [복원력 & 랜섬웨어](../resilience/index.md)
